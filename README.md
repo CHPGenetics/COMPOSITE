@@ -1,7 +1,7 @@
 # COMPOSITE
 
 COMPOSITE a computational tool for multiplet detection in both single-omics and multiomics single-cell setting.
-It has been implemented as an automated pipeline and is available as both a Python package and a cloud-based application with a user-friendly interface.
+It has been implemented as an automated pipeline and is available as both a cloud-based application with a user-friendly interface and a Python package .
 
 
 ![Overview of the COMPOSITE model](./pictures/overview.png)
@@ -12,7 +12,14 @@ To prepare the data from a Seurat object: [tutorial](https://htmlpreview.github.
 
 ## Running COMPOSITE
 
-### Option 1: Install the Python package 
+### Option 1: Cloud-based web app
+
+[COMPOSITE cloud-based app](https://ondemand.htc.crc.pitt.edu/rnode/htc-n42.crc.pitt.edu/63206/?#)
+
+Note that in order to leverage GPU for acceleration, please use the Python package.
+
+
+### Option 2: Install the Python package 
 
 Installation:
 ```
@@ -45,9 +52,4 @@ comined_classification, multiplet_probability = Multiomics.composite_multiomics(
 comined_classification, multiplet_probability = Multiomics.composite_multiomics(RNA = "RNA.mtx", ADT =  "ADT.mtx", ATAC =  "ATAC.mtx")
 ```
 
-### Option 2: Cloud-based web app
-
-[COMPOSITE cloud-based app](https://ondemand.htc.crc.pitt.edu/rnode/htc-n42.crc.pitt.edu/63206/?#)
-
-Note that in order to leverage GPU for acceleration, please use the Python package.
 
