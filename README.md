@@ -4,7 +4,7 @@ This is a computational tool for multiplet detection in both single-omics and mu
 
 
 ## Data preparation
-To prepare the data from a Seurat object: [tutorial](https://htmlpreview.github.io/?./composite_data_preparation.html)
+To prepare the data from a Seurat object: [tutorial](https://htmlpreview.github.io/?https://github.com/HAH112/COMPOSITE/composite_data_preparation.html)
 
 ## Running COMPOSITE
 
