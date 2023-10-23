@@ -1,6 +1,6 @@
 # COMPOSITE
 
-COMPOSITE a computational tool for multiplet detection in both single-omics and multiomics single-cell setting.
+COMPOSITE a computational tool for multiplet detection in both single-omics and multiomics single-cell settings.
 It has been implemented as an automated pipeline and is available as both a cloud-based application with a user-friendly interface and a Python package .
 
 
