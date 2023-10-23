@@ -4,7 +4,7 @@ COMPOSITE a computational tool for multiplet detection in both single-omics and 
 It has been implemented as an automated pipeline and is available as both a Python package and a cloud-based application with a user-friendly interface.
 
 ```
-![Overview of the COMPOSITE model](pictures/overview.png)
+![Overview of the COMPOSITE model](./pictures/overview.png)
 ```
 
 ## Data preparation
