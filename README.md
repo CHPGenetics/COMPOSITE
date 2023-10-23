@@ -3,9 +3,9 @@
 COMPOSITE a computational tool for multiplet detection in both single-omics and multiomics single-cell setting.
 It has been implemented as an automated pipeline and is available as both a Python package and a cloud-based application with a user-friendly interface.
 
+```
 ![Overview of the COMPOSITE model](./picture/overview.png)
-
-
+```
 
 ## Data preparation
 To prepare the data from a Seurat object: [tutorial](https://htmlpreview.github.io/?https://github.com/HAH112/COMPOSITE/blob/main/composite_data_preparation.html)
