@@ -8,7 +8,7 @@ It has been implemented as an automated pipeline and is available as both a clou
 
 
 ## Data preparation
-To prepare the data from a Seurat object: [Preparing data for COMPOSITE](https://htmlpreview.github.io/?https://github.com/HAH112/COMPOSITE/blob/main/composite_data_preparation.html)
+To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https://htmlpreview.github.io/?https://github.com/HAH112/COMPOSITE/blob/main/composite_data_preparation.html)
 
 ## Running COMPOSITE
 
@@ -82,4 +82,4 @@ data_file.to_csv("Multiplet_prediction.csv",index=False)
 ```
 ## Using COMPOSITE output in R
 
-We demonstrate how to use the COMPOSITE output to remove the predicted multiplets from the Seurat object: [Eliminate multiplets](https://htmlpreview.github.io/?https://github.com/HAH112/COMPOSITE/blob/main/downstream.html)
+We demonstrate how to use the COMPOSITE output to remove the predicted multiplets from the Seurat object: [Eliminating multiplets.](https://htmlpreview.github.io/?https://github.com/HAH112/COMPOSITE/blob/main/downstream.html)
