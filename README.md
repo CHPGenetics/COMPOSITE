@@ -80,4 +80,6 @@ data_file.index.name = 'index'
 data_file.reset_index(inplace=True)
 data_file.to_csv("Multiplet_prediction.csv",index=False)
 ```
+## Using COMPOSITE output in R
 
+We demonstrate how to use the COMPOSITE output to remove the predicted multiplets from the Seurat object: [Eliminate multiplets](https://htmlpreview.github.io/?https://github.com/HAH112/COMPOSITE/blob/main/downstream.html)
