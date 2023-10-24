@@ -73,6 +73,7 @@ The `multiplet_probability` variable contains the predicted probability for each
 To save the mutiplet classification result: 
 
 ```
+import pandas as pd
 data = {'multiplet_classification': multiplet_classification}
 
 data_file = pd.DataFrame(data)
