@@ -12,6 +12,8 @@ To prepare the data from a Seurat object: [tutorial](https://htmlpreview.github.
 
 ## Running COMPOSITE
 
+![sticker](./pictures/sticker.png)
+
 ### Option 1: Cloud-based web app
 
 [COMPOSITE cloud-based app](https://ondemand.htc.crc.pitt.edu/rnode/htc-n42.crc.pitt.edu/63206/?#)
@@ -20,6 +22,7 @@ Note that in order to leverage GPU for acceleration, please use the Python packa
 
 
 ### Option 2: Install the Python package 
+
 
 Installation:
 ```
