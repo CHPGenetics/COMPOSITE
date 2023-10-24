@@ -26,7 +26,7 @@ Note that in order to leverage GPU for acceleration, please use the Python packa
 
 Installation:
 ```
-pip install sccomposite
+pip install sccomposite==1.0.0
 ```
 Store the RNA data, ADT data, and ATAC data respectively as "RNA.mtx", "ADT.mtx", and "ATAC.mtx" in the working directory. Import the `sccomposite` package.
 
