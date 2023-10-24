@@ -22,7 +22,7 @@ Note that in order to leverage GPU for acceleration, please use the Python packa
 
 ### Option 2: Install the Python package 
 
-<img src="./pictures/sticker2.png" width="245" height="245">
+<img src="./pictures/sticker3.png" width="245" height="245">
 
 Installation:
 ```
