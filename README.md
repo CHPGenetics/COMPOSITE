@@ -12,7 +12,7 @@ To prepare the data from a Seurat object: [tutorial](https://htmlpreview.github.
 
 ## Running COMPOSITE
 
-<img src="./pictures/sticker.png" width="30" height="30">
+<img src="./pictures/sticker.png" width="70" height="70">
 
 ### Option 1: Cloud-based web app
 
