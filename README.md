@@ -37,20 +37,24 @@ from sccomposite import ADT_modality
 from sccomposite import ATAC_modality
 from sccomposite import Multiomics
 ```
-We recommend users to use the default parameter settings when running COMPOSITE. It is a robust statistical model and the default parameters are suitable for most of the cases. The default parameter setting was used to generate the results in our manuscript. 
+We recommend users to use the default parameter settings when running COMPOSITE. COMPOSITE is a robust statistical model and the default parameters are suitable for most of the cases. The default parameter setting was used to generate the results in our manuscript. 
 
 When only one modality of data is available:
 
 ```
 # RNA modality only
-multiplet_classification, rna_consistency = RNA_modality.composite_rna("RNA.mtx")
+multiplet_classification, consistency = RNA_modality.composite_rna("RNA.mtx")
 
 # ADT modality only
-multiplet_classification, adt_consistency = ADT_modality.composite_adt("ADT.mtx")
+multiplet_classification, consistency = ADT_modality.composite_adt("ADT.mtx")
 
 # ATAC modality only
-multiplet_classification, atac_consistency = ATAC_modality.composite_atac("ATAC.mtx")
+multiplet_classification, consistency = ATAC_modality.composite_atac("ATAC.mtx")
 ```
+The `multiplet_classification` variable contains the predicted multiplet label for each droplet, with "1" representing multiplet and "0" representing singlet.
+
+The `consistency` variable contains the droplet-specific modality consistency. A higher value of consistency indicates the data in the corresponding modality are less noisy for the given droplet.
+
 When multiomics data is available:
 ```
 # RNA+ADT
@@ -62,5 +66,18 @@ multiplet_classification, multiplet_probability = Multiomics.composite_multiomic
 # RNA+ADT+ATAC
 multiplet_classification, multiplet_probability = Multiomics.composite_multiomics(RNA = "RNA.mtx", ADT =  "ADT.mtx", ATAC =  "ATAC.mtx")
 ```
+The `multiplet_classification` variable contains the predicted multiplet label for each droplet, with "1" representing multiplet and "0" representing singlet.
 
+The `multiplet_probability` variable contains the predicted probability for each droplet to be multiplet, leveraging the information across all the provided modalities.
+
+To save the mutiplet classification result: 
+
+```
+data = {'multiplet_classification': doublet_classification}
+
+data_file = pd.DataFrame(data)
+data_file.index.name = 'index'
+data_file.reset_index(inplace=True)
+data_file.to_csv("Multiplet_prediction.csv",index=False)
+```
 
