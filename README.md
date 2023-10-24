@@ -12,7 +12,6 @@ To prepare the data from a Seurat object: [tutorial](https://htmlpreview.github.
 
 ## Running COMPOSITE
 
-<img src="./pictures/sticker.png" width="120" height="120">
 
 ### Option 1: Cloud-based web app
 
@@ -23,6 +22,7 @@ Note that in order to leverage GPU for acceleration, please use the Python packa
 
 ### Option 2: Install the Python package 
 
+<img src="./pictures/sticker.png" width="300" height="300">
 
 Installation:
 ```
