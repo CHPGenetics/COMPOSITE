@@ -55,7 +55,7 @@ The `multiplet_classification` variable contains the predicted multiplet label f
 
 The `consistency` variable contains the droplet-specific modality consistency. A higher value of consistency indicates the data in the corresponding modality are less noisy for the given droplet.
 
-When multiomics data is available:
+When multiomics data are available:
 ```
 # RNA+ADT
 multiplet_classification, multiplet_probability = Multiomics.composite_multiomics(RNA = "RNA.mtx", ADT =  "ADT.mtx")
