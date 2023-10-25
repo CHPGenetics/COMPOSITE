@@ -37,7 +37,7 @@ from sccomposite import ADT_modality
 from sccomposite import ATAC_modality
 from sccomposite import Multiomics
 ```
-We recommend users to use the default parameter settings when running COMPOSITE. COMPOSITE is a robust statistical model and the default parameters are suitable for most of the cases.  All the [results](https://github.com/HAH112/COMPOSITE/tree/main/experiments) in our manuscript were generated under the default parameter setting. We recommand the users to use all the available modalities of data as input.
+We recommend users to use the default parameter settings when running COMPOSITE. COMPOSITE is a robust statistical model and the default parameters are suitable for most of the cases.  All the [results](https://github.com/HAH112/COMPOSITE/tree/main/experiments/description) in our manuscript were generated under the default parameter setting. We recommand the users to use all the available modalities of data as input.
 
 When only one modality of data is available:
 
