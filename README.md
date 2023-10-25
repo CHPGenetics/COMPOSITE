@@ -37,7 +37,7 @@ from sccomposite import ADT_modality
 from sccomposite import ATAC_modality
 from sccomposite import Multiomics
 ```
-We recommend users to use the default parameter settings when running COMPOSITE. COMPOSITE is a robust statistical model and the default parameters are suitable for most of the cases.  All the [results](https://github.com/HAH112/COMPOSITE/tree/main/experiments) in our manuscript were generated under the default parameter setting. 
+We recommend users to use the default parameter settings when running COMPOSITE. COMPOSITE is a robust statistical model and the default parameters are suitable for most of the cases.  All the [results](https://github.com/HAH112/COMPOSITE/tree/main/experiments) in our manuscript were generated under the default parameter setting. We recommand the users to use all the available modalities of data as input.
 
 When only one modality of data is available:
 
@@ -53,7 +53,7 @@ multiplet_classification, consistency = ATAC_modality.composite_atac("ATAC.mtx")
 ```
 The `multiplet_classification` variable contains the predicted multiplet label for each droplet, with "1" representing multiplet and "0" representing singlet.
 
-The `consistency` variable contains the droplet-specific modality consistency. A higher value of consistency indicates the data in the corresponding modality are less noisy for the given droplet.
+The `consistency` variable contains the droplet-specific modality consistency. A higher value of consistency indicates the data in the corresponding modality are less noisy for the given droplet, resulting in a more reliable multiplet prediction result for the droplet.
 
 When multiomics data are available:
 ```
