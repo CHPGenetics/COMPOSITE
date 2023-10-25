@@ -68,7 +68,7 @@ multiplet_classification, multiplet_probability = Multiomics.composite_multiomic
 ```
 The `multiplet_classification` variable contains the predicted multiplet label for each droplet, with "1" representing multiplet and "0" representing singlet.
 
-The `multiplet_probability` variable contains the predicted probability for each droplet to be multiplet, leveraging the information across all the provided modalities.
+The `multiplet_probability` variable contains the predicted probability for each droplet to be multiplet, leveraging the information across all the provided modalities. It quantifies the uncertainty of multiplet prediction results.
 
 To save the mutiplet classification result: 
 
