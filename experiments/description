@@ -1,5 +1,7 @@
 This folder contains relevant experiment results.
 
-To reproduce the results, run the following files sequentially: COMPOSITE_RNA_results.ipynb, COMPOSITE_ADT_and_RNA+ADT.ipynb, COMPOSITE_ATAC_and_RNA+ATAC_results.ipynb, and 	COMPOSITE_DOGMA_results.ipynb.
+To reproduce the results, run the following files sequentially: COMPOSITE_RNA_results.ipynb, COMPOSITE_ADT_and_RNA+ADT.ipynb, 
+COMPOSITE_ATAC_and_RNA+ATAC_results.ipynb, and COMPOSITE_DOGMA_results.ipynb.
 These files contain the evaluations of single-omics and multiomics prediction results of COMPOSITE.
-Only the stable feature values and the multiplet labels are needed to reproduce the results. These data will be available on this Github repository once the paper is published.
+Only the stable feature values and the multiplet labels are needed to reproduce the results. 
+These data will be available on this Github repository once the paper is published.
