@@ -8,7 +8,7 @@ It has been implemented as an automated pipeline and is available as both a clou
 
 
 ## Data preparation
-To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https://htmlpreview.github.io/?https://github.com/HAH112/COMPOSITE/blob/main/composite_data_preparation.html)
+To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https://htmlpreview.github.io/?https://github.com/CHPGenetics/COMPOSITE/blob/main/composite_data_preparation.html)
 
 ## Running COMPOSITE
 
@@ -37,7 +37,7 @@ from sccomposite import ADT_modality
 from sccomposite import ATAC_modality
 from sccomposite import Multiomics
 ```
-We recommend users to use the default parameter settings when running COMPOSITE. COMPOSITE is a robust statistical model and the default parameters are suitable for most of the cases.  All the [results](https://github.com/HAH112/COMPOSITE/tree/main/experiments/description) in our manuscript were generated under the default parameter setting. We recommand the users to use all the available modalities of data as input.
+We recommend users to use the default parameter settings when running COMPOSITE. COMPOSITE is a robust statistical model and the default parameters are suitable for most of the cases.  All the [results](https://github.com/CHPGenetics/COMPOSITE/tree/main/experiments/description) in our manuscript were generated under the default parameter setting. We recommand the users to use all the available modalities of data as input.
 
 When only one modality of data is available:
 
@@ -83,4 +83,4 @@ data_file.to_csv("Multiplet_prediction.csv",index=False)
 ```
 ## Using COMPOSITE output in R
 
-We demonstrate how to use the COMPOSITE output to remove the predicted multiplets from the Seurat object: [Eliminating multiplets.](https://htmlpreview.github.io/?https://github.com/HAH112/COMPOSITE/blob/main/downstream.html)
+We demonstrate how to use the COMPOSITE output to remove the predicted multiplets from the Seurat object: [Eliminating multiplets.](https://htmlpreview.github.io/?https://github.com/CHPGenetics/COMPOSITE/blob/main/downstream.html)
