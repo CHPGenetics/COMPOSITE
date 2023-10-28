@@ -15,7 +15,7 @@ To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https:
 
 ### Option 1: Cloud-based web app
 
-[COMPOSITE cloud-based app](https://ondemand.htc.crc.pitt.edu/rnode/htc-n42.crc.pitt.edu/63206/?#)
+[COMPOSITE cloud-based app](https://ondemand.htc.crc.pitt.edu/rnode/htc-1024-n0.crc.pitt.edu/28614/?)
 
 Note that in order to leverage GPU for acceleration, please use the Python package.
 
