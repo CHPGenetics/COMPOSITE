@@ -4,7 +4,7 @@ COMPOSITE (COMpound POiSson multIplet deTEction model) is a computational tool f
 It has been implemented as an automated pipeline and is available as both a cloud-based application with a user-friendly interface and a Python package.
 
 
-![Overview of the COMPOSITE model](./pictures/Overview.png)
+![Overview of the COMPOSITE model](./pictures/overview.png)
 
 
 ## Data preparation
