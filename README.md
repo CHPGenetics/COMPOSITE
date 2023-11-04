@@ -86,4 +86,4 @@ data_file.to_csv("Multiplet_prediction.csv",index=False)
 
 We demonstrate how to use the COMPOSITE output to remove the predicted multiplets from the Seurat object: [Eliminating multiplets.](https://htmlpreview.github.io/?https://github.com/CHPGenetics/COMPOSITE/blob/main/downstream.html)
 
-[or](https://github.com/CHPGenetics/COMPOSITE/blob/main/downstream.md)
+another: [or](https://github.com/CHPGenetics/COMPOSITE/blob/main/downstream.md)
