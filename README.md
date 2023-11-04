@@ -17,7 +17,6 @@ To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https:
 
 [COMPOSITE cloud-based app](https://chpgenetics.shinyapps.io/COMPOSITE_RShinyApp/)
 
-Note that in order to leverage GPU for acceleration, please use the Python package.
 
 
 ### Option 2: Install the Python package <img align="right" style="margin-left: 20px; margin-bottom: 10px;" src="./pictures/sticker.png" width="215" height="215">
