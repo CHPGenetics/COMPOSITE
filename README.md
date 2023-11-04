@@ -26,12 +26,12 @@ Note that in order to leverage GPU for acceleration, please use the Python packa
 
 
 Installation:
-```
+```python
 pip install sccomposite==1.0.0
 ```
 Store the RNA data, ADT data, and ATAC data respectively as "RNA.mtx", "ADT.mtx", and "ATAC.mtx" in the working directory. Import the `sccomposite` package.
 
-```
+```python
 import sccomposite
 from sccomposite import RNA_modality
 from sccomposite import ADT_modality
@@ -42,7 +42,7 @@ We recommend users to use the default parameter settings when running COMPOSITE.
 
 When only one modality of data is available:
 
-```
+```python
 # RNA modality only
 multiplet_classification, consistency = RNA_modality.composite_rna("RNA.mtx")
 
@@ -57,7 +57,7 @@ The `multiplet_classification` variable contains the predicted multiplet label f
 The `consistency` variable contains the droplet-specific modality consistency. A higher value of consistency indicates the data in the corresponding modality are less noisy for the given droplet, resulting in a more reliable multiplet prediction result for the droplet.
 
 When multiomics data are available:
-```
+```python
 # RNA+ADT
 multiplet_classification, multiplet_probability = Multiomics.composite_multiomics(RNA = "RNA.mtx", ADT =  "ADT.mtx")
 
@@ -73,7 +73,7 @@ The `multiplet_probability` variable contains the predicted probability for each
 
 To save the mutiplet classification result: 
 
-```
+```python
 import pandas as pd
 data = {'multiplet_classification': multiplet_classification}
 
