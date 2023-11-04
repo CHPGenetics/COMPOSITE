@@ -15,7 +15,7 @@ To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https:
 
 ### Option 1: Cloud-based web app
 
-[COMPOSITE cloud-based app](https://chpgenetics.shinyapps.io/COMPOSITE_RShinyApp/)
+[COMPOSITE cloud-based app](https://shiny.crc.pitt.edu/shinyproj_composite/)
 
 
 
