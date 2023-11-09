@@ -8,7 +8,7 @@ It has been implemented as an automated pipeline and is available as both a clou
 
 
 ## Data preparation
-To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https://htmlpreview.github.io/?https://github.com/CHPGenetics/COMPOSITE/blob/main/COMPOSITE_data_preparation.html) We provide readily available demo datasets that can be used directly as input: [RNA.mtx](https://drive.google.com/file/d/1Tx7My5VD9ktWUvEihYbJUsz_OTHhbQmD/view?usp=sharing), [ADT.mtx](https://drive.google.com/file/d/1fg8_fbvTSQ8yBsxdks9oGwAVsV3IqNKX/view?usp=sharing), and [ATAC.mtx](https://drive.google.com/file/d/1a_g3WrlcT4-BF_VGRj06CYIo8QDJZAyz/view?usp=sharing).
+To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https://htmlpreview.github.io/?https://github.com/CHPGenetics/COMPOSITE/blob/main/composite_data_preparation.html) We provide readily available demo datasets that can be used directly as input: [RNA.mtx](https://drive.google.com/file/d/1Tx7My5VD9ktWUvEihYbJUsz_OTHhbQmD/view?usp=sharing), [ADT.mtx](https://drive.google.com/file/d/1fg8_fbvTSQ8yBsxdks9oGwAVsV3IqNKX/view?usp=sharing), and [ATAC.mtx](https://drive.google.com/file/d/1a_g3WrlcT4-BF_VGRj06CYIo8QDJZAyz/view?usp=sharing).
 
 
 
