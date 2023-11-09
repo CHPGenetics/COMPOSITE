@@ -8,7 +8,9 @@ It has been implemented as an automated pipeline and is available as both a clou
 
 
 ## Data preparation
-To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https://htmlpreview.github.io/?https://github.com/CHPGenetics/COMPOSITE/blob/main/composite_data_preparation.html) We provide downsampled [demo data](https://drive.google.com/file/d/1JhBS6SZp5Khi6k4xSuV2kzezIfBT6P_x/view?usp=sharing) for illustration purpose.
+To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https://htmlpreview.github.io/?https://github.com/CHPGenetics/COMPOSITE/blob/main/composite_data_preparation.html) We provide downsampled [demo data](https://drive.google.com/file/d/1PLm4VwW1yuBDZIanCpwGvrzGANxnGRIa/view?usp=sharing) for illustration purpose.
+
+
 
 ## Running COMPOSITE
 
@@ -17,6 +19,7 @@ To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https:
 
 [COMPOSITE cloud-based app](https://shiny.crc.pitt.edu/shinyproj_composite/)
 
+We offer readily available demo datasets that can be used directly as input: [RNA.mtx](https://drive.google.com/file/d/1Tx7My5VD9ktWUvEihYbJUsz_OTHhbQmD/view?usp=sharing), [ADT.mtx](https://drive.google.com/file/d/1fg8_fbvTSQ8yBsxdks9oGwAVsV3IqNKX/view?usp=sharing), [ATAC.mtx](https://drive.google.com/file/d/1a_g3WrlcT4-BF_VGRj06CYIo8QDJZAyz/view?usp=sharing)
 
 
 ### Option 2: Install the Python package <img align="right" style="margin-left: 20px; margin-bottom: 10px;" src="./pictures/sticker.png" width="215" height="215">
