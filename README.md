@@ -8,7 +8,7 @@ It has been implemented as an automated pipeline and is available as both a clou
 
 
 ## Data preparation
-To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https://htmlpreview.github.io/?https://github.com/CHPGenetics/COMPOSITE/blob/main/composite_data_preparation.html) We provide downsampled [demo data](https://drive.google.com/file/d/1PLm4VwW1yuBDZIanCpwGvrzGANxnGRIa/view?usp=sharing) for illustration purpose.
+To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https://htmlpreview.github.io/?https://github.com/CHPGenetics/COMPOSITE/blob/main/COMPOSITE_data_preparation.html) We provide downsampled [demo data](https://drive.google.com/file/d/1PLm4VwW1yuBDZIanCpwGvrzGANxnGRIa/view?usp=sharing) for illustration purpose.
 
 
 
