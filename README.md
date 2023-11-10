@@ -18,7 +18,7 @@ To prepare the data from a Seurat object: [Preparing data for COMPOSITE.](https:
 
 ### Option 1: Cloud-based web app
 
-Users may directly upload the data files to [COMPOSITE cloud-based app](https://shiny.crc.pitt.edu/shinyproj_composite/). The results will be sent to the provided email address as a .csv file.
+Users may directly upload the data files to the [COMPOSITE cloud-based app](https://shiny.crc.pitt.edu/shinyproj_composite/). The results will be sent to the provided email address as a .csv file.
 
 
 
