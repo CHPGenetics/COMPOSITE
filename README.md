@@ -9,7 +9,7 @@ It has been implemented as an automated pipeline and is available as both a clou
 
 ## Data preparation
 
-COMPOSITE accepts up to three `mtx` matrix files as input, corresponding to the matrices of three modalities. The `RNA.mtx` and `ADT.mtx` matrices are simple raw count matrices. However, the `ATAC.mtx` matrix requires some preprocessing. The details are outlined below.
+COMPOSITE accepts up to three `mtx` matrix (columns are cells and rows are features) files as input, corresponding to the matrices of three modalities. The `RNA.mtx` and `ADT.mtx` matrices are simple raw count matrices. However, the `ATAC.mtx` matrix requires some preprocessing. The details are outlined below.
 
 ### For Python user
 Like we said before, the `RNA.mtx` and `ADT.mtx` are just raw counts matrices. Here is a simple example to save a [Scanpy](https://scanpy.readthedocs.io/en/stable/) object into a `mtx` file.
