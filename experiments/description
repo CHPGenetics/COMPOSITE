@@ -4,4 +4,4 @@ To reproduce the results, run the following files sequentially: COMPOSITE_RNA_re
 COMPOSITE_ATAC_and_RNA+ATAC_results.ipynb, and COMPOSITE_DOGMA_results.ipynb.
 These files contain the evaluations of single-omics and multiomics prediction results of COMPOSITE, under default parameter settings.
 Only the stable feature values and the ground truth multiplet labels are needed to reproduce the results. 
-These data will be available on this Github repository once the paper is published.
+These data are available at https://doi.org/10.5281/zenodo.11167173.
