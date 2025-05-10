@@ -1,6 +1,6 @@
 # COMPOSITE
 
-[![pypi-badge](https://img.shields.io/pypi/v/sccomposite)](https://pypi.org/project/sccomposite) [![pypiDownloads](https://static.pepy.tech/badge/sccomposite)](https://pepy.tech/project/sccomposite)![GitHub](https://img.shields.io/github/license/CHPGenetics/COMPOSITE)
+[![pypi-badge](https://img.shields.io/pypi/v/sccomposite)](https://pypi.org/project/sccomposite) ![GitHub](https://img.shields.io/github/license/CHPGenetics/COMPOSITE) [![pypiDownloads](https://static.pepy.tech/badge/sccomposite)](https://pepy.tech/project/sccomposite)
 
 COMPOSITE (COMpound POiSson multIplet deTEction model) is a computational tool for multiplet detection in both single-cell single-omics and multiomics  settings.
 It has been implemented as an automated pipeline and is available as both a cloud-based application with a user-friendly interface and a Python package.
