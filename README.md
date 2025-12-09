@@ -19,7 +19,7 @@ The `RNA.mtx` and `ADT.mtx` are raw counts matrices. Here is a simple example to
 ```python
 import scipy
 #adata is a scanpy.AnnData object.
-sparse_X = scipy.sparse.coo_matrix(adata.X)
+sparse_X = scipy.sparse.coo_matrix(adata.X.T)
 scipy.io.mmwrite('PATH_OF_YOUR_MTX_FILE', sparse_X)
 ```
 
